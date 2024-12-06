@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- external css -->
+    <link rel="stylesheet" href="amazon.css" />
+    <link rel="shortcut icon" href="Images/amazon.png" type="image/x-icon">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>
+      Online Shopping site in India: Shop Online for Mobiles, Books, Watches,
+      Shoes and More - Amazon.in
+    </title>
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- navbar -->
+    <div class="nav">
+      <!-- amazon logo -->
+      <div class="image">
+        <a href="index.html"> <img src="Images/amazonlogo.png" alt="logo" /></a>
+      </div>
+      <!-- delivery column -->
+      <div class="deliver">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <!-- address column -->
+        <div class="address">
+          <div class="line1">
+            <p>Deliver to Amazon User</p>
+          </div>
+          <div class="line2">
+            <p>Mangalore 572048</p>
+          </div>
+        </div>
+      </div>
+      <!-- searchbox -->
+      <div class="searchbox">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <select class="selectmenu">
+              <option selected id="selected">All</option>
+              <option>Alexa Skills</option>
+              <option>Amazon Devices</option>
+              <option>Amazon Fashion</option>
+              <option>Amazon Pharmacy</option>
+              <option>Appliances</option>
+              <option>Apps & Games</option>
+              <option>Audible Audiobooks</option>
+              <option>Baby</option>
+              <option>Beauty</option>
+              <option>Books</option>
+              <option>Car & Motorbike</option>
+              <option>Clothing & Accessories</option>
+              <option>Collectibles</option>
+              <option>Computers & Accessories</option>
+              <option>Deals</option>
+              <option>Electronics</option>
+              <option>Furniture</option>
+              <option>Garden & Outdoors</option>
+              <option>Gift Cards</option>
+              <option>Grocery & Gourmet Foods</option>
+              <option>Health & Personal Care</option>
+              <option>Home & Kitchen</option>
+              <option>Industrial & Scientific</option>
+              <option>Jewellery</option>
+              <option>Kindle Store</option>
+              <option>Luggage & Bags</option>
+              <option>Luxury Beauty</option>
+              <option>Movies & TV Shows</option>
+              <option>MP3 Music</option>
+              <option>Music</option>
+              <option>Musical Instruments</option>
+              <option>Office Products</option>
+              <option>Pet Supplies</option>
+              <option>Prime Video</option>
+              <option>Shoes & Handbags</option>
+              <option>Software</option>
+              <option>Sports, Fitness & Outdoors</option>
+              <option>Subscribe & Save</option>
+              <option>Tools & Home Improvement</option>
+              <option>Toys & Games</option>
+              <option>Under ₹500</option>
+              <option>Video Games</option>
+              <option>Watches</option>
+            </select>
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search Amazon.in"
+              aria-label="Search"
+            />
+            <button class="btn" id="search" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="lang">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenu2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li>
+              <input type="radio" name="lang" id="" checked />English - EN
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><input type="radio" name="lang" id="" />हिन्दी - HI</li>
+            <li><input type="radio" name="lang" id="" />தமிழ் - TA</li>
+            <li><input type="radio" name="lang" id="" />తెలుగు - TE</li>
+            <li><input type="radio" name="lang" id="" />ಕನ್ನಡ - KN</li>
+            <li><input type="radio" name="lang" id="" />മലയാളം - ML</li>
+            <li><input type="radio" name="lang" id="" />বাংলা - BN</li>
+            <li><input type="radio" name="lang" id="" />मराठी - MR</li>
+            <li><a href="#">Learn more</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <img src="Images/india.png" alt="" /><span
+              >You are shopping on Amazon.in</span
+            >
+            <li><a href="#">Change country / region</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="user">
+        <div class="username">
+          <p>Hello, Amazon User</p>
+        </div>
+        <div class="accounts">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenu2"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Accounts & Lists
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="manage">
+                <span>Who is shopping? Select a profile.</span>
+                <a href="#"
+                  >Manage Profiles
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+              <div class="container">
+                <div class="lists">
+                  <ul>
+                    <h5>Your Lists</h5>
+                    <li><a href="#">Shopping List</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a href="#">Create a Wish list</a></li>
+                    <li><a href="#">Wish from Any Website</a></li>
+                    <li><a href="#">Baby Wishlist</a></li>
+                    <li><a href="#">Discover Your Style</a></li>
+                    <li><a href="#">Explore Showroom</a></li>
+                  </ul>
+                </div>
+                <div class="account">
+                  <ul>
+                    <h5>Your Account</h5>
+                    <li><a href="#">Switch Accounts</a></li>
+                    <li><a href="#">Sign Out</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Your Wish List</a></li>
+                    <li><a href="#">Keep shopping for</a></li>
+                    <li><a href="#">Your Recommendations</a></li>
+                    <li><a href="#">Recalls and Product Safety Alerts</a></li>
+                    <li><a href="#">Your Prime Membership</a></li>
+                    <li><a href="#">Your Prime Video</a></li>
+                    <li><a href="#">Your Subscribe & Save Items</a></li>
+                    <li><a href="#">Memberships & Subscriptions</a></li>
+                    <li><a href="#">Your Seller Account</a></li>
+                    <li><a href="#">Content Library</a></li>
+                    <li><a href="#">Devices</a></li>
+                    <li><a href="#">Your Free Amazon Business Account</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="orders">
+        <div class="txt1">Returns</div>
+        <div class="txt2">& Orders</div>
+      </div>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i><span>Cart</span>
+      </div>
+    </div>
+
+    <div class="header">
+      &nbsp;&nbsp;
+      <button
+        class="btn"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+        <i class="fa-solid fa-bars"></i>&nbsp; All
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <i class="fa-solid fa-circle-user"></i>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Hello, Amazon User
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <ul>
+              <li><b>Trending</b></li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Best Sellers</a>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">New Releases</a>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Movers and Shakers</a>
+              </li>
+            </ul>
+            <hr class="dropdown-divider" />
+            <ul>
+              <li><b>Digital Content and Devices</b></li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Echo &Alexa</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Fire TV</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#"
+                    >Kindle E-Readers & eBooks</a
+                  >
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Audible Audiobooks</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Amazon Prime Video</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Amazon Prime Music</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+            </ul>
+            <hr class="dropdown-divider" />
+            <ul>
+              <li><b>Shop by Category</b></li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Mobiles, Computers</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#"
+                    >TV, Appliances, Electronics</a
+                  >
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Men's Fashion</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#">Women's Fashion</a>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <div class="collapse" id="collapseExample1">
+                <hr class="dropdown-divder" />
+                <div class="card card-body">
+                  <div class="txt">
+                    <ul>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Home, Kitchen, Pets</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Beauty, Health, Grocery</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Sports, Fitness, Bags, Luggage</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Toys, Baby Products, Kids' Fashion</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Car, Motorbike, Industrial</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#">Books</a>
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Movies, Music & Video Games</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <li class="list">
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <span class="toggletxt"></span
+                  ><i
+                    style="margin-left: 5%"
+                    class="fa-solid fa-chevron-down toggleicon"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+            <hr class="dropdown-divider" />
+            <ul>
+              <li><b>Programs & Features</b></li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Amazon Pay</a>
+              </li>
+              <li class="list">
+                <div class="txt">
+                  <a class="dropdown-item" href="#"
+                    >Gift Cards & Mobile Recharges</a
+                  >
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Amazon Launchpad</a>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Amazon Business</a>
+              </li>
+              <div class="collapse" id="collapseExample2">
+                <hr class="dropdown-divder" />
+                <div class="card card-body">
+                  <div class="txt">
+                    <ul>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Handloom and Handicrafts</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#">Amazon Saheli</a>
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#">Amazon Custom</a>
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#">Flight Tickets</a>
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >Buy more, Save more</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#">Clearance store</a>
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                      <li class="list">
+                        <div class="txt">
+                          <a class="dropdown-item" href="#"
+                            >International Brands</a
+                          >
+                        </div>
+                        <div class="icon">
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <li class="list">
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample2"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <span class="toggletxt"></span
+                  ><i
+                    style="margin-left: 5%"
+                    class="fa-solid fa-chevron-down toggleicon"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+            <hr class="dropdown-divider" />
+            <ul>
+              <li><b>Help & Settings</b></li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Your Account</a>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Customer Service</a>
+              </li>
+              <li class="list">
+                <a class="dropdown-item" href="#">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <button class="btn" type="button">MX Player</button>
+      <button class="btn" type="button">Sell</button>
+      <button class="btn" type="button">Amazon Pay</button>
+      <button class="btn" type="button">Gift Cards</button>
+      <button class="btn" type="button">Buy Again</button>
+      <button class="btn" type="button">AmazonBasics</button>
+      <button class="btn" type="button">Gift Ideas</button>
+      <button class="btn" type="button">Customer Service</button>
+      <button class="btn" type="button">Today's Deals</button>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Browsing History
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <p class="histext">
+            Your Browsing History<span><a href="#">View and Edit</a></span>
+          </p>
+          <div class="history">
+            <div class="item">
+              <img src="Images/mob1.png" alt="" />
+              <div class="infotxt">
+                OnePlus 12 (Flowy Emerald, 12GB RAM, 256GB Storage)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/guard.png" alt="" />
+              <div class="infotxt">
+                OnePlus 12 - 9D Tempered Glass Screen Protector
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/m2.png" alt="" />
+              <div class="infotxt">
+                Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB,
+                256GB Storage)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/speaker.png" alt="" />
+              <div class="infotxt">
+                JBL Flip 5 Wireless Portable Bluetooth Speaker, Signature Sound
+                with Powerful Bass Radiator, Vibrant Colors with Rugged Fabric
+                Design, Party Boost, IPX7 Waterproof & Type C (Without Mic,
+                Black)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/audio1.png" alt="" />
+              <div class="infotxt">
+                boAt Rockerz 425 Bluetooth Wireless Over Ear Headphones with Mic
+                Signature Sound, Beast Mode for Gaming, Enx Tech, ASAP Charge,
+                25H Playtime, Bluetooth V5.2 (Active Black)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/audio2.png" alt="" />
+              <div class="infotxt">
+                Boult Audio Z40 True Wireless in Ear Earbuds with 60H Playtime,
+                Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in
+                India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.3 Ear Buds TWS
+                (Brown)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/camera.png" alt="" />
+              <div class="infotxt">
+                Canon EOS R5 Mark II (RF24-105mm f/4L IS USM)
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/tripod.png" alt="" />
+              <div class="infotxt">
+                Onn. 67-inch Tripod with Smartphone Cradle for DSLR,
+                Smartphones, and GoPro Cameras
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/gopro.png" alt="" />
+              <div class="infotxt">
+                GoPro Hero11 Waterproof Digital Action Camera with Front&Rear
+                LCD Screens,5.3K60 Ultra Hd Video,Hypersmooth 5.0,1080P Live
+                Streaming with Enduro Battery
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/zflip.png" alt="" />
+              <div class="infotxt">
+                Samsung Galaxy Z Flip4 5G (Graphite, 8GB RAM, 256GB Storage)
+                with No Cost EMI/Additional Exchange Offers
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn" type="button">Your Amazon.in</button>
+      <button class="btn" type="button">Mobiles</button>
+      <button class="btn" type="button">Home Improvement</button>
+    </div>
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="Images/hero1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="Images/hero2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="Images/hero3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="Images/hero4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="Images/hero5.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="homecontents">
+      <div class="row">
+        <div class="column">
+          <div class="title">Pick up where you left off</div>
+          <div class="columnbox">
+            <div class="item">
+              <img src="Images/audio1.png" alt="" />
+              <p>
+                boAt Rockerz 425 Bluetooth Wireless Over Ear Headphones with Mic
+                Signature Sound, Beast Mode for Gaming, Enx Tech, ASAP Charge,
+                25H Playtime, Bluetooth V5.2 (Active Black)
+              </p>
+            </div>
+            <div class="item">
+              <img src="Images/pick2.png" alt="" />
+              <p>OJBL Tune 520BT Wireless On Ear Headphones with Mic (Blue)</p>
+            </div>
+            <div class="item">
+              <img src="Images/pick3.png" alt="" />
+              <p>boAt Rockerz 450 Wireless Bluetooth Headphone Black</p>
+            </div>
+            <div class="item">
+              <img src="Images/audio2.png" alt="" />
+              <p>
+                Boult Audio Z40 True Wireless in Ear Earbuds with 60H Playtime,
+                Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in
+                India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.3 Ear Buds TWS
+                (Brown)
+              </p>
+            </div>
+          </div>
+          <a class="seemore" href="#">See more</a>
+        </div>
+        <div class="column">
+          <div class="title">Keep shopping for</div>
+          <div class="columnbox">
+            <div class="item">
+              <img src="Images/camera.png" alt="" />
+              <p>Hi-fi & home audio speakers</p>
+            </div>
+            <div class="item">
+              <img src="Images/mob1.png" alt="" />
+              <p>Smartphones & basic mobiles</p>
+            </div>
+            <div class="item">
+              <img src="Images/keep1.png" alt="" />
+              <p>Mobile screen guards</p>
+            </div>
+            <div class="item">
+              <img src="Images/keep4.png" alt="" />
+              <p>Laundry detergents</p>
+            </div>
+          </div>
+          <a class="seemore" href="#">View your browsing history</a>
+        </div>
+        <div class="column">
+          <div class="title">Revamp your home in style</div>
+          <div class="columnbox">
+            <div class="item" id="othertxt">
+              <img src="Images/hmstyle1.jpg" alt="" />
+              <p>Cushion covers, bedsheets & more</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmstyle2.jpg" alt="" />
+              <p>Figurines, vases & more</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmstyle3.jpg" alt="" />
+              <p>Home storage</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmstyle4.jpg" alt="" />
+              <p>Lighting solutions</p>
+            </div>
+          </div>
+          <a class="seemore" href="#">Explore all</a>
+        </div>
+
+        <div class="columnend">
+          <div class="columnboxend">
+            <div class="subbox">
+              <div class="txt">
+                <p>10% extra cashback on business value days</p>
+                <a href="#">Register now</a>
+              </div>
+              <div class="img"></div>
+            </div>
+            <div class="adbox">
+              <div class="img"></div>
+              <div class="txt">
+                <a href="https://amzn.in/d/8BjZSob" target="_blank"
+                  ><p>
+                    Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium
+                    Gray,12GB,256GB Storage)
+                  </p></a
+                >
+                <p>
+                  4.6
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                  <small>8,057</small>
+                </p>
+                <p>
+                  <span class="discount">-12%</span>
+                  <span class="price"
+                    ><sup id="rupee">&#8377;</sup>1,18,799<sup>00</sup></span
+                  >
+                  <span class="realprice"
+                    >M.R.P.: <small>&#8377;1,34,999</small></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="primepromo">
+          <div class="primetext">Prime Video: Recommended for you</div>
+          <div class="title">Farzi - Season 01</div>
+          <div class="watch">Start watching on Prime Video</div>
+        </div>
+        <div class="column">
+          <div class="title">
+            Starting &#8377;99 | Home improvement essentials
+          </div>
+          <div class="columnbox lasttwo">
+            <div class="item">
+              <img src="Images/hmimp1.png" alt="" />
+              <p>Spin mops, wipes & more</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmimp2.jpg" alt="" />
+              <p>Bathroom hardware & accessories</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmimp3.jpg" alt="" />
+              <p>Hammers, screwdrivers & more</p>
+            </div>
+            <div class="item" id="othertxt">
+              <img src="Images/hmimp4.png" alt="" />
+              <p>Extension boards, plugs & more</p>
+            </div>
+          </div>
+          <a class="seemore" href="#">Explore all</a>
+        </div>
+        <div class="column">
+          <div class="title">Top mobile accessories for your smartphone</div>
+          <div class="columnbox lasttwo">
+            <div class="item">
+              <img src="Images/earph1.png" alt="" />
+              <p>Headsets</p>
+            </div>
+            <div class="item">
+              <img src="Images/earph2.png" alt="" />
+              <p>Cables and chargers</p>
+            </div>
+            <div class="item">
+              <img src="Images/case.png" alt="" />
+              <p>Cases and covers</p>
+            </div>
+            <div class="item">
+              <img src="Images/pwrbnk.png" alt="" />
+              <p>Powerbanks</p>
+            </div>
+          </div>
+          <a class="seemore" href="#">See all offers</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <div class="title">Related to items you've viewed</div>
+          <div
+            id="mycarousel"
+            class="carousel slide"
+            data-bs-interval="false"
+            data-bs-wrap="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="slider">
+                  <div class="item">
+                    <img src="Images/audio1.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/pick2.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/pick3.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide1.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide2.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide4.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slider">
+                  <div class="item">
+                    <img src="Images/slide7.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide8.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide9.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/mob1.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide10.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide11.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide12.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slider">
+                  <div class="item">
+                    <img src="Images/slide13.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide15.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide16.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide17.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide18.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide19.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/slide20.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              id="mycarousel-prev"
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mycarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                id="mycarousel-prev-icon"
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              id="mycarousel-next"
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mycarousel"
+              data-bs-slide="next"
+            >
+              <span
+                id="mycarousel-next-icon"
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="main">
+          <div class="title">Best Sellers in Clothing & Accessories</div>
+          <div
+            id="cloth"
+            class="carousel slide"
+            data-bs-interval="false"
+            data-bs-wrap="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="slider">
+                  <div class="item">
+                    <img src="Images/clt1.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt2.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt3.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt4.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt5.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt6.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt7.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slider">
+                  <div class="item">
+                    <img src="Images/clt8.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt9.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt10.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt11.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt12.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt13.png" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="Images/clt14.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              id="mycarousel-prev"
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#cloth"
+              data-bs-slide="prev"
+            >
+              <span
+                id="mycarousel-prev-icon"
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              id="mycarousel-next"
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#cloth"
+              data-bs-slide="next"
+            >
+              <span
+                id="mycarousel-next-icon"
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="advertise">
+          <div class="logo"></div>
+          <div class="image"></div>
+          <div class="txt">
+            <p>
+              <a href="https://amzn.in/d/eQeLHct" target="_blank"
+                >Boult x Mustang Dash Truly Wireless in Ear Earbuds with 100H
+                Playtime, App Support, Dual Device Pairing, 4 Clear Calling ENC
+                Mics, 45ms Low Latency, Made in India, IPX5 Ear Buds TWS
+                Bluetooth 5.4
+              </a>
+            </p>
+            <p>
+              4.1
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <small>4,869</small>
+            </p>
+            <p>
+              <span class="discount">-73%</span>
+              <span class="price"
+                ><sup id="rupee">&#8377;</sup>1,599<sup>00</sup></span
+              >
+              <span class="realprice">M.R.P.: <small>&#8377;5,999</small></span>
+            </p>
+            <p id="sponsored">
+              Sponsored<i class="fa-solid fa-circle-info"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="title">Keep shopping for</div>
+          <div class="columnbox" id="lastrow">
+            <div class="main">
+              <div class="img">
+                <img src="Images/jblearbuds.png" alt="" />
+              </div>
+              <div class="contents">
+                <p>
+                  JBL Wave Beam in-Ear Wireless Earbuds (TWS) with Mic,App for
+                  Customized Extra Bass Eq,32 Hours Battery&Quick Charge,Ip54
+                  Water&Dust Resistance,Ambient Aware&Talk-Thru,Google Fastpair
+                  (Black)
+                </p>
+                <p id="realprice">
+                  <span id="price"><sup>&#8377;</sup>2,999<sup>00</sup></span
+                  ><span
+                    ><small
+                      >M.R.P.: <strike>&#8377;4,999.00</strike></small
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="others">
+              <img src="Images/jblearbuds.png" alt="" id="selected" />
+              <img src="Images/noisebuds.png" alt="" />
+              <img src="Images/boultbuds.png" alt="" />
+              <img src="Images/boatbuds.png" alt="" />
+            </div>
+          </div>
+          <a class="seemore" href="#">See more</a>
+        </div>
+        <div class="column">
+          <div class="title">Continue shopping for</div>
+          <div class="columnbox" id="lastrow">
+            <div class="main">
+              <div class="img">
+                <img src="Images/oplus12guard.png" alt="" />
+              </div>
+              <div class="contents">
+                <p>
+                  BLACKSHEEP Advanced Black Border Tempered Glass Screen
+                  Protector for Oneplus 12 5G Full Glue Full Screen Coverage
+                  (except edges) Screen Protector Pack of 1- (Black)
+                </p>
+                <p id="realprice">
+                  <span id="price"><sup>&#8377;</sup>499<sup>00</sup></span
+                  ><span
+                    ><small
+                      >M.R.P.: <strike>&#8377;1,999.00</strike></small
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="others">
+              <img src="Images/oplus12guard.png" alt="" id="selected" />
+              <img src="Images/s24guard.png" alt="" />
+              <img src="Images/pixelguard.png" alt="" />
+              <img src="Images/nothingguard.png" alt="" />
+            </div>
+          </div>
+          <a class="seemore" href="#">See more</a>
+        </div>
+        <div class="column">
+          <div class="title">Pick up where you left off</div>
+          <div class="columnbox" id="lastrow">
+            <div class="main">
+              <div class="img">
+                <img src="Images/boatspk.png" alt="" />
+              </div>
+              <div class="contents">
+                <p>
+                  boAt Stone 352 Bluetooth Speaker with 10W RMS Stereo Sound,
+                  IPX7 Water Resistance, TWS Feature, Up to 12H Total Playtime,
+                  Multi-Compatibility Modes and Type-C Charging(Raging Black)
+                </p>
+                <p id="realprice">
+                  <span id="price"><sup>&#8377;</sup>1,699<sup>00</sup></span
+                  ><span
+                    ><small
+                      >M.R.P.: <strike>&#8377;3,490.00</strike></small
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="others">
+              <img src="Images/boatspk.png" alt="" id="selected" />
+              <img src="Images/sonyspk.jpg" alt="" />
+              <img src="Images/jblspk.jpg" alt="" />
+              <img src="Images/portospk.jpg" alt="" />
+            </div>
+          </div>
+          <a class="seemore" href="#">See more</a>
+        </div>
+        <div class="column">
+          <div class="title">More items to consider</div>
+          <div class="columnbox" id="lastrow">
+            <div class="main">
+              <div class="img">
+                <img src="Images/ce4.png" alt="" />
+              </div>
+              <div class="contents">
+                <p>Oneplus Nord CE4 (Celadon Marble, 8GB RAM, 128Gb Storage)</p>
+                <p id="realprice">
+                  <span id="price"><sup>&#8377;</sup>24,999</span>
+                </p>
+              </div>
+            </div>
+            <div class="others">
+              <img src="Images/ce4.png" alt="" id="selected" />
+              <img src="Images/nord4.jpg" alt="" />
+              <img src="Images/12r.jpg" alt="" />
+              <img src="Images/ce3.jpg" alt="" />
+            </div>
+          </div>
+          <a class="seemore" href="#">See more</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="totop">
+        <a href="#top">Back to top</a>
+      </div>
+      <div class="sitemap">
+        <div class="col">
+          <ul>
+            <b>Get to Know Us</b>
+            <li><a href="#">About Amazon</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Science</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <b>Connect with Us</b>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <b>Make Money with Us</b>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Protect and Build Your Brand</a></li>
+            <li><a href="#">Amazon Global Selling</a></li>
+            <li><a href="#">Supply to Amazon</a></li>
+            <li><a href="#">Become an Affilate</a></li>
+            <li><a href="#">Fulfilment by Amazon</a></li>
+            <li><a href="#">AdvertiseYour Products</a></li>
+            <li><a href="#">Amazon Pay on Mercants</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <b>Let Us Help You</b>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Returns Center</a></li>
+            <li><a href="#">Recalls and Product Safety Alerts</a></li>
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Amazon ap Download</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="end">
+        <div class="img">
+          <a href="index.html"><img src="Images/amazonlogo.png" alt="" /></a>
+        </div>
+        <div class="lang">
+          <span
+            ><p><i class="fa-solid fa-globe"></i>English</p></span
+          >
+        </div>
+        <div class="region">
+          <span
+            ><p><img src="Images/india.png" alt="india" />India</p></span
+          >
+        </div>
+      </div>
+      <div class="content">
+        <div class="col">
+          <a href="#"
+            ><b>AbeBooks</b>
+            <p>Books, art & collectibles</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Amazon Web Services</b>
+            <p>Scalable Cloud Computing Services</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Audible</b>
+            <p>Download Audio Books</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>IMDb</b>
+            <p>Movies,TV & Celebrities</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Shopbop</b>
+            <p>Designer Fashion Brands</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Amazon Business</b>
+            <p>Everything For Your Business</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Prime Now</b>
+            <p>2-Hour Delivery on Everyday Items</p></a
+          >
+        </div>
+        <div class="col">
+          <a href="#"
+            ><b>Amazon Prime Music</b>
+            <p id="million">100 million songs, ad-free</p>
+            <p id="million">Over 15 million podcast episodes</p>
+          </a>
+        </div>
+      </div>
+      <div class="terms">
+        <p>
+          <a href="#">Conditions of Use & Sale</a><a href="#">Privacy Notice</a
+          ><a href="#">Interest-Based Ads</a><br />
+          &copy; 1996-2024, Amazon.com, Inc. or its affiliates
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
